@@ -99,7 +99,7 @@ img {
     display: block;
     margin-top: -15px;
   }
-} 
+}
 
 main {
   font-size: 130%;
@@ -188,6 +188,10 @@ main {
   margin: 15px auto;
 }
 
+#validation-message {
+  display: none;
+}
+
 label {
   font-family: var(--font-default);
   font-size: 17px;
@@ -226,7 +230,7 @@ input {
 .formData[data-error-visible="true"] .text-control {
   border: 2px solid #e54858;
 }
-/* 
+/*
 input[data-error]::after {
     content: attr(data-error);
     font-size: 0.4em;
@@ -526,4 +530,3 @@ footer {
     opacity: 1;
   }
 }
-
