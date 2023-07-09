@@ -141,7 +141,6 @@ function validateForm(event) {
 
     } else {
       parent.setAttribute("data-error-visible", "false");
-      // parent.style.border = "3px solid #279e7a";
       return true;
     }
   }
